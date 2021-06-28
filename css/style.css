@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   text-transform: capitalize;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature {
+    max-width: 500px;
+    width: 94%;
+    margin: 0 auto;
+    height: auto;
+    background: #fff;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.temperature h1 {
+    font-family: 'Akaya Kanadaka', cursive;
+    padding-bottom: 15px;
+}
+
+.tempImage {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: inherit;
+}
+
+.tempImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputBox {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px;
+    
+}
+
+.inputBox span {
+    width: 50px;
+    height: 100%;
+    font-style: italic;
+    background: #f0f0f0;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
